@@ -1,0 +1,302 @@
+2018-04-13 15:46:27,456: 
+(<class 'TypeError'>, TypeError("'NoneType' object is not subscriptable",), <traceback object at 0x1046c0a48>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 73, in handle_client_data
+    encoding, udata)
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 107, in process_request
+    essential_data_from_request = get_essential_data_from_request(data)
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 83, in get_essential_data_from_request
+    first_http_string_splitted = re.match(FIRST_STRING_IN_HTTP, data)[1].split(' ')
+TypeError: 'NoneType' object is not subscriptable
+2018-04-13 15:46:27,459: 
+(<class 'ConnectionError'>, ConnectionError('Проверка на http формат провалена',), <traceback object at 0x1046c0688>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 113, in process_request
+    validate_http_request(data)
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 74, in validate_http_request
+    raise(ConnectionError("Проверка на http формат провалена"))
+ConnectionError: Проверка на http формат провалена
+2018-04-13 15:46:27,460: 
+(<class 'SystemExit'>, SystemExit(), <traceback object at 0x1046c49c8>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 113, in process_request
+    validate_http_request(data)
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 74, in validate_http_request
+    raise(ConnectionError("Проверка на http формат провалена"))
+ConnectionError: Проверка на http формат провалена
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 73, in handle_client_data
+    encoding, udata)
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 128, in process_request
+    sys.exit()
+SystemExit
+2018-04-13 15:47:07,553: 
+(<class 'TypeError'>, TypeError("'NoneType' object is not subscriptable",), <traceback object at 0x1046c0e08>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 73, in handle_client_data
+    encoding, udata)
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 107, in process_request
+    essential_data_from_request = get_essential_data_from_request(data)
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 83, in get_essential_data_from_request
+    first_http_string_splitted = re.match(FIRST_STRING_IN_HTTP, data)[1].split(' ')
+TypeError: 'NoneType' object is not subscriptable
+2018-04-13 15:47:07,556: 
+(<class 'ConnectionError'>, ConnectionError('Проверка на http формат провалена',), <traceback object at 0x1046c0688>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 113, in process_request
+    validate_http_request(data)
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 74, in validate_http_request
+    raise(ConnectionError("Проверка на http формат провалена"))
+ConnectionError: Проверка на http формат провалена
+2018-04-13 15:47:07,557: 
+(<class 'SystemExit'>, SystemExit(), <traceback object at 0x1046c4908>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 113, in process_request
+    validate_http_request(data)
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 74, in validate_http_request
+    raise(ConnectionError("Проверка на http формат провалена"))
+ConnectionError: Проверка на http формат провалена
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 73, in handle_client_data
+    encoding, udata)
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 128, in process_request
+    sys.exit()
+SystemExit
+2018-04-13 15:50:44,573: 
+(<class 'KeyboardInterrupt'>, KeyboardInterrupt(), <traceback object at 0x1046c0d48>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 62, in handle_client_data
+    data = connection.recv(pack_size)
+KeyboardInterrupt
+2018-04-13 15:50:48,985: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549b1c8>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:50:53,004: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549a1c8>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:50:54,781: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549e1c8>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:50:56,394: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549e148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:50:58,035: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549c148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:50:59,562: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549d188>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:01,521: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549b148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:03,140: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549f148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:04,743: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549c148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:06,169: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549e148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:07,644: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549b148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:09,253: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549b1c8>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:10,708: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549b1c8>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:12,239: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549e148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:42,106: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549b148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:45,948: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549b148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:46,109: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549b148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:46,216: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549b148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:48,097: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549c148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:50,103: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x1054991c8>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:56,951: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x1054a0148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:51:59,293: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549e148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:52:02,228: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549c148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:52:04,701: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549a148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:52:06,870: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549c148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:52:09,282: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549e148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:52:10,791: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549c148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:52:12,502: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549e148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:52:38,452: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549e148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:52:41,470: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549d148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:53:31,155: 
+(<class 'OSError'>, OSError(48, 'Address already in use'), <traceback object at 0x10549f148>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 131, in start
+    sock.bind((ip, port))
+OSError: [Errno 48] Address already in use
+2018-04-13 15:54:15,282: 
+(<class 'ConnectionError'>, ConnectionError('Проверка на http формат провалена',), <traceback object at 0x10549d588>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 113, in process_request
+    validate_http_request(data)
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 74, in validate_http_request
+    raise(ConnectionError("Проверка на http формат провалена"))
+ConnectionError: Проверка на http формат провалена
+2018-04-13 15:54:27,525: 
+(<class 'SystemExit'>, SystemExit(), <traceback object at 0x10549d648>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 113, in process_request
+    validate_http_request(data)
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 74, in validate_http_request
+    raise(ConnectionError("Проверка на http формат провалена"))
+ConnectionError: Проверка на http формат провалена
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 73, in handle_client_data
+    encoding, udata)
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/http_handler.py", line 127, in process_request
+    sys.exit()
+SystemExit
+2018-04-13 15:54:56,318: 
+(<class 'KeyboardInterrupt'>, KeyboardInterrupt(), <traceback object at 0x1055c7188>)
+Traceback (most recent call last):
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 37, in listen
+    print("Have got client:")
+  File "/Users/Eugeen/VirtualBoxVMs/s1k0de/reg1/trainee-redone/day7/main.py", line 37, in listen
+    print("Have got client:")
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 968, in _pydevd_bundle.pydevd_cython_darwin_36_64.SafeCallWrapper.__call__
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 515, in _pydevd_bundle.pydevd_cython_darwin_36_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 880, in _pydevd_bundle.pydevd_cython_darwin_36_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 843, in _pydevd_bundle.pydevd_cython_darwin_36_64.PyDBFrame.trace_dispatch
+  File "_pydevd_bundle/pydevd_cython_darwin_36_64.pyx", line 254, in _pydevd_bundle.pydevd_cython_darwin_36_64.PyDBFrame.do_wait_suspend
+  File "/Applications/PyCharm CE.app/Contents/helpers/pydev/pydevd.py", line 812, in do_wait_suspend
+    time.sleep(0.01)
+KeyboardInterrupt
